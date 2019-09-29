@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.3/jquery-ui.css" rel="stylesheet" />
+
+<h1>Index</h1>
+<input id="TenHangHoa" class="form-control" placeholder="Nhập tên hàng hóa" />
+
+@section Scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.3/jquery-ui.js"></script>
+    
+    <script>
+        $(function () {
+            $("#TenHangHoa").autocomplete({
+                source: "/Product/Search"
+            });
+        });
+    </script>
+}
