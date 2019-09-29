@@ -1,0 +1,11 @@
+﻿{
+  "Message": "ASP.NET Core 2.2",
+  "MyConfigs": {
+    "Config1": "Nhất Nghệ Education",
+    "Config2": 16,
+    "Config3": "105 Bà Huyện Thanh Quan, Q3"
+  },
+  "ConnectionStrings": {
+    "MyShop":  "Server=.; Database=NhatNgheShop; Integrated Security=true;"
+  }
+}
